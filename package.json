@@ -1,0 +1,15 @@
+{
+  "name": "puppeteer-utils",
+  "version": "0.0.1",
+  "description": "Use puppeteer to save pdf, screenshots, etc",
+  "main": "index.js",
+  "scripts": {
+    "save-pdf": "node --experimental-modules src/save-pdf"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "puppeteer": "^1.17.0"
+  }
+}
